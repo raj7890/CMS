@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.619 sec <<< FAILURE! - in TestSuite
+VerifyLoginCrossOverPage(com.cms.TestScripts.VerifyLogin)  Time elapsed: 0.019 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.cms.businesslogic.CmsBusinessLogic.LaunchApplication(CmsBusinessLogic.java:19)
+	at com.cms.TestScripts.VerifyLogin.VerifyLoginCrossOverPage(VerifyLogin.java:13)
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="environment" value="TestEnv"/>
+  <parameter name="browser" value="firefox"/>
+  <test name="Test(failed)">
+    <parameter name="environment" value="TestEnv"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.cms.TestScripts.VerifyLogin">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="aftersuite"/>
+          <include name="beforemethod"/>
+          <include name="setup"/>
+          <include name="VerifyLoginCrossOverPage"/>
+        </methods>
+      </class> <!-- com.cms.TestScripts.VerifyLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
