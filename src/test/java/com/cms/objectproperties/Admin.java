@@ -4,7 +4,11 @@ import org.openqa.selenium.By;
 
 public class Admin {
 
+	
+	//Admin page object properties
 	public By Admin_Txt_EmailAdd = By.name("identification");
+	
+	public By Admin_Txt_EmailAdd1= By.name("identification");
 	
 	public By Admin_Txt_Password = By.name("password");
 	
